@@ -1,0 +1,16 @@
+
+@mixin flexbox($value: flex) {
+  display: $value;
+}
+
+@mixin flex_align_items($value) {
+  @if $value {
+    align-items: $value;
+  }
+}
+
+@mixin flex_justify_content($value) {
+  @if $value {
+    justify-content: $value;
+  }
+}
