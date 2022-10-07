@@ -5,11 +5,11 @@
 
 <template>
   <div class="tw-main-logo-placeholder">
-    <div class="tw-main-logo">
-      <RouterLink to="/">
+    <RouterLink to="/">
+      <div class="tw-main-logo">
         <img alt="TW Logo" src="https://img.zcdn.com.au/st4/stores/common/logos/temple_&_webster/temple_&_webster_normal_1_default_background.svg?v=2" />
-      </RouterLink>
-    </div>
+      </div>
+    </RouterLink>
   </div>
 </template>
 

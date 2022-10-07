@@ -1,11 +1,11 @@
 <script setup lang="ts">
-  import HeaderNav from './HeaderNav.vue'
-  
+  import { HeaderNav } from '.'
+
 </script>
 
 <template>
   <section class="tw-header">
-    <HeaderNav msg="test123" />
+    <HeaderNav msg="Welcome, Guest!" />
   </section>
 </template>
 
