@@ -1,0 +1,13 @@
+@import '@/assets/scss/tw-theme';
+
+a {
+  color: $layout-color !important;
+}
+
+a.clean-link {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
