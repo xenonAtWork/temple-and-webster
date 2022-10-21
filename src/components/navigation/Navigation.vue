@@ -27,13 +27,21 @@
 </template>
 
 <style lang="scss" scoped>
+
+  @import '@/assets/scss/tw-theme';
+
+  .tw-navigation {
+    border-bottom: 1px solid $lightgrey-color;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 50px;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
   
   .tw-navigation-items {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 1.5rem;
   }
   
 </style>
